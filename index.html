@@ -301,18 +301,33 @@
     <section class="contact" id="contact">
       <h2 class="heading">Fale <span>Comigo!</span></h2>
 
-      <form action="#">
+      <form action="https://formspree.io/f/mgegnjke" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Digite seu nome" />
-          <input type="email" name="email" placeholder="Digite seu e-mail" />
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+          />
         </div>
         <div class="input-box">
-          <input id="phone" placeholder="DDD + Telefone" />
-          <input type="text" placeholder="Assunto" />
+          <input id="phone" name="phone" placeholder="DDD + Telefone" />
+          <input
+            type="text"
+            name="assunto"
+            id="assunto"
+            placeholder="Assunto"
+          />
         </div>
         <textarea
-          name=""
-          id=""
+          name="mensagem"
+          id="mensagem"
           cols="30"
           rows="10"
           placeholder="Digite aqui sua mensagem"
